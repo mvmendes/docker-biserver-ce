@@ -3,13 +3,13 @@
 #
 
 # Pull base image
-FROM zhicwu/biserver-ce:8.0-full
+FROM zhicwu/biserver-ce:9.0-full
 
 # Set maintainer
 MAINTAINER Zhichun Wu <zhicwu@gmail.com>
 
 # Set environment variables
-ENV BISERVER_USER=pentaho PDI_PATCH=8.0.0.0 JMX_EXPORTER_VERSION=0.10
+ENV BISERVER_USER=pentaho PDI_PATCH=9.0.0.0 JMX_EXPORTER_VERSION=0.10
 
 # Update server configuration
 RUN echo "Update server configuration..." \
